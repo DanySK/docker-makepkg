@@ -1,0 +1,52 @@
+name: Build container image and deploy on dockerhub
+on:
+  push:
+    branches-ignore:
+      - 'dependabot/**'
+  pull_request:
+    
+jobs:
+  success:
+    permissions: 
+        contents: write
+        packages: write
+        actions: write
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+      - name: Compute name
+        id: name
+        run: |
+          IMAGE_NAME="$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')"
+          echo "image-name=$IMAGE_NAME" >> $GITHUB_OUTPUT
+      - name: Build Image
+        run: |
+          echo docker build -t "${{ steps.name.outputs.image-name }}:latest" .
+          docker build -t "$IMAGE_NAME${{ steps.name.outputs.image-name }}" .
+      - name: Download the Alchemist pkgbuild
+        run: git clone https://aur.archlinux.org/alchemist.git
+      - name: Run test
+        run: |
+          docker run --rm -v "$(pwd)/alchemist:/alchemist" --workdir alchemist "${{ github.repository }}:latest" makepkg --printsrcinfo
+      - name: Determine whether this build may run deployments
+        id: may-deploy
+        run: |
+          echo "may-deploy=${{
+            !github.event.repository.fork && (
+              github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+            )
+          }}" >> $GITHUB_OUTPUT
+      - name: Login to Docker Hub
+        if: steps.may-deploy.outputs.may-deploy
+        env:
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DOCKER_USERNAME: danysk
+        run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin docker.io
+      - name: Create Release
+        if: steps.may-deploy.outputs.may-deploy
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          npm install
+          npx semantic-release --debug
