@@ -30,6 +30,7 @@ jobs:
         run: git clone https://aur.archlinux.org/alchemist.git
       - name: Run test
         run: |
+          chmod 777 alchemist
           docker run --rm -v "$(pwd)/alchemist:/alchemist" --workdir /alchemist "${{ steps.name.outputs.image-name }}:latest" makepkg --printsrcinfo
       - name: Determine whether this build may run deployments
         id: may-deploy
