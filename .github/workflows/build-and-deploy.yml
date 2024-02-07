@@ -49,6 +49,7 @@ jobs:
       - name: Create Release
         if: steps.may-deploy.outputs.may-deploy
         env:
+          IMAGE_NAME: "${{ steps.name.outputs.image-name }}"
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           npm install
