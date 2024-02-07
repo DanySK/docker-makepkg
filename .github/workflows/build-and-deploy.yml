@@ -19,9 +19,7 @@ jobs:
         id: name
         run: |
           IMAGE_NAME="$(
-            echo ${{ github.repository }}
-            | tr '[:upper:]' '[:lower:]'
-            | sed s/docker-//
+            echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]' | sed s/docker-//
           )"
           echo "image-name=$IMAGE_NAME" >> $GITHUB_OUTPUT
       - name: Build Image
