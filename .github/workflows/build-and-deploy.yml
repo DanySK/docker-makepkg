@@ -40,6 +40,10 @@ jobs:
               github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
             )
           }}" >> $GITHUB_OUTPUT
+      - name: Install Node
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version-file: package.json
       - name: Login to Docker Hub
         if: steps.may-deploy.outputs.may-deploy
         env:
