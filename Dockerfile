@@ -1,4 +1,4 @@
-FROM archlinux:base-devel-20240101.0.204074
+FROM archlinux:base-devel@sha256:2dbd72d1e5510e047db7f441bf9069e9c53391b87e04e5bee3f379cd03cec060
 
 COPY run.sh /run.sh
 
@@ -8,13 +8,15 @@ RUN \
   # * Install needed packages
   pacman -Syyu --noconfirm --needed \
       archlinux-keyring \
-      cmake \
-      sudo \
-      python \
       binutils \
+      cmake \
+      debugedit \
       fakeroot \
       git \
-      rsync && \
+      namcap \
+      python \
+      rsync \
+      sudo && \
   # * makepkg cannot (and should not) be run as root
   useradd -m builder && \
   # * Allow builder to run as root (to install dependencies)
@@ -39,6 +41,8 @@ RUN \
   cd yay-bin && \
   makepkg -sri --clean --noconfirm --needed && \
   cd .. && rm -Rf yay-bin
+
+RUN namcap -v
 
 # Build the package
 WORKDIR /pkg
