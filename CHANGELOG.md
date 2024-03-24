@@ -1,3 +1,21 @@
+## [1.1.0](https://github.com/DanySK/docker-makepkg/compare/1.0.1...1.1.0) (2024-03-24)
+
+
+### Features
+
+* preinstall namcap ([26136e4](https://github.com/DanySK/docker-makepkg/commit/26136e4d514af570c9e37bc4304f9c1f3efd8d8d))
+
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 10ce20a ([8b3a2cc](https://github.com/DanySK/docker-makepkg/commit/8b3a2ccd631fe2729658ab5acebb053f9eb0b036))
+* **deps:** update npm to v10.5.0 ([3e9c8f4](https://github.com/DanySK/docker-makepkg/commit/3e9c8f4b24291fdf041b3ecd702c58b8cece3e30))
+
+
+### Build and continuous integration
+
+* **renovate:** enable on forks ([8d5c2ff](https://github.com/DanySK/docker-makepkg/commit/8d5c2fff5fd8c7a457b57bce73840f07f7340b0f))
+
 ## 1.0.0 (2024-03-24)
 
 
