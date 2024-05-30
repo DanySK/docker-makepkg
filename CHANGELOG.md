@@ -1,3 +1,25 @@
+## [1.1.1](https://github.com/DanySK/docker-makepkg/compare/1.1.0...1.1.1) (2024-05-30)
+
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to a20d103 ([97dfdd4](https://github.com/DanySK/docker-makepkg/commit/97dfdd422d2a91b04cfecb54c3799fe71b32183b))
+* **deps:** update node.js to 20.12 ([5b7ecff](https://github.com/DanySK/docker-makepkg/commit/5b7ecff51e04ba43e01579bc6d459b758b91ff81))
+* **deps:** update node.js to 20.13 ([a396ca9](https://github.com/DanySK/docker-makepkg/commit/a396ca98fa72c8d6ffd535fb6b73ad64566561d5))
+* **deps:** update npm to v10.5.1 ([d3f0c89](https://github.com/DanySK/docker-makepkg/commit/d3f0c8943ed198de6651c331aa928f9168528848))
+* **deps:** update npm to v10.5.2 ([fca8f15](https://github.com/DanySK/docker-makepkg/commit/fca8f1502309fe9a7e0b0012eb0d956f06f7d8ff))
+* **deps:** update npm to v10.6.0 ([68e3f67](https://github.com/DanySK/docker-makepkg/commit/68e3f670e59d61d416cd77031615f4d58e3ae6cf))
+* **deps:** update npm to v10.7.0 ([f3e6274](https://github.com/DanySK/docker-makepkg/commit/f3e627498beb37ae757b5c8c826ea8882bebe7ac))
+* **deps:** update npm to v10.8.0 ([121b97a](https://github.com/DanySK/docker-makepkg/commit/121b97ab453a12cb338884c0163cf2eef5f7ea53))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.3 ([8919114](https://github.com/DanySK/docker-makepkg/commit/8919114fba388abb75be7e4d24ae41ce8ec4842b))
+* **deps:** update actions/checkout action to v4.1.4 ([7dc700a](https://github.com/DanySK/docker-makepkg/commit/7dc700a68c25611bad551a70a3f7bd3a8c7eb613))
+* **deps:** update actions/checkout action to v4.1.5 ([ff85a8d](https://github.com/DanySK/docker-makepkg/commit/ff85a8dd585db05a65918f2703d0bec546d39f76))
+* **deps:** update actions/checkout action to v4.1.6 ([e452993](https://github.com/DanySK/docker-makepkg/commit/e452993a0b927c82b888e059d6beb746bc0b9592))
+
 ## [1.1.0](https://github.com/DanySK/docker-makepkg/compare/1.0.1...1.1.0) (2024-03-24)
 
 
