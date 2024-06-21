@@ -1,3 +1,17 @@
+## [1.1.2](https://github.com/DanySK/docker-makepkg/compare/1.1.1...1.1.2) (2024-06-21)
+
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 4d48217 ([3a9eaeb](https://github.com/DanySK/docker-makepkg/commit/3a9eaeb2622fd67f8b231c721ce0de699c25a81f))
+* **deps:** update node.js to 20.14 ([ed10881](https://github.com/DanySK/docker-makepkg/commit/ed10881862f50521e07dbdcc02c0e7d8860acc4c))
+* **deps:** update npm to v10.8.1 ([421870e](https://github.com/DanySK/docker-makepkg/commit/421870ea956aa0331d25bc6b40e38d4ba155d003))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.7 ([cfe6877](https://github.com/DanySK/docker-makepkg/commit/cfe68777cc79a8fa770770bb9d007dac5537a1c1))
+
 ## [1.1.1](https://github.com/DanySK/docker-makepkg/compare/1.1.0...1.1.1) (2024-05-30)
 
 
