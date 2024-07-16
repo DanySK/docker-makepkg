@@ -1,3 +1,19 @@
+## [1.1.3](https://github.com/DanySK/docker-makepkg/compare/1.1.2...1.1.3) (2024-07-16)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 6d74368 ([f3e9395](https://github.com/DanySK/docker-makepkg/commit/f3e9395e066a4c5a93348d97d252aab2a4b1ddcc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.86 ([a3e38c4](https://github.com/DanySK/docker-makepkg/commit/a3e38c47696ff0e4ea78ce3c4bc0bf55b088cf58))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.87 ([23fee33](https://github.com/DanySK/docker-makepkg/commit/23fee3390fbf0486f25900df2ae87430a37a2380))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.89 ([94f877a](https://github.com/DanySK/docker-makepkg/commit/94f877a999984579ddb778bef68ee2d325d440af))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.90 ([29cc74f](https://github.com/DanySK/docker-makepkg/commit/29cc74f6a10704f6208a5acfb384750fde9d7890))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.91 ([b492c3f](https://github.com/DanySK/docker-makepkg/commit/b492c3ffbd3cea98e21ad9b77174c7b553ed0ca1))
+* **deps:** update node.js to 20.15 ([c8af63e](https://github.com/DanySK/docker-makepkg/commit/c8af63e3d9736161430f7db94e16b1d8e93fe51c))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.0.3 ([c0dd493](https://github.com/DanySK/docker-makepkg/commit/c0dd4937dfc61927d60baa40c84ce2f07d5521d2))
+
 ## [1.1.2](https://github.com/DanySK/docker-makepkg/compare/1.1.1...1.1.2) (2024-06-21)
 
 
