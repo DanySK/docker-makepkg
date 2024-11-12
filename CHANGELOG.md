@@ -1,3 +1,9 @@
+## [1.1.20](https://github.com/DanySK/docker-makepkg/compare/1.1.19...1.1.20) (2024-11-12)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to b2769eb ([#81](https://github.com/DanySK/docker-makepkg/issues/81)) ([078fc34](https://github.com/DanySK/docker-makepkg/commit/078fc34fad79a74a1f575c9d364699cfe8d4f97f))
+
 ## [1.1.19](https://github.com/DanySK/docker-makepkg/compare/1.1.18...1.1.19) (2024-11-05)
 
 ### Dependency updates
