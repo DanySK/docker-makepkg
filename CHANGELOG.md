@@ -1,3 +1,10 @@
+## [1.1.23](https://github.com/DanySK/docker-makepkg/compare/1.1.22...1.1.23) (2024-11-26)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 0803542 ([#86](https://github.com/DanySK/docker-makepkg/issues/86)) ([c1594d5](https://github.com/DanySK/docker-makepkg/commit/c1594d5b50c3c36914c2fd7edff0579c9d8703df))
+* **deps:** update npm to v10.9.1 ([#85](https://github.com/DanySK/docker-makepkg/issues/85)) ([96e46fa](https://github.com/DanySK/docker-makepkg/commit/96e46fa88af4b05a3146b4e40df5a1ee37ae8022))
+
 ## [1.1.22](https://github.com/DanySK/docker-makepkg/compare/1.1.21...1.1.22) (2024-11-19)
 
 ### Dependency updates
