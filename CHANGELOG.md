@@ -1,3 +1,10 @@
+## [1.1.36](https://github.com/DanySK/docker-makepkg/compare/1.1.35...1.1.36) (2025-02-15)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 2e64be3 ([#111](https://github.com/DanySK/docker-makepkg/issues/111)) ([275ed0a](https://github.com/DanySK/docker-makepkg/commit/275ed0afefbcd55e97a7e38cf4a131afde917a29))
+* **deps:** update node.js to 22.14 ([#110](https://github.com/DanySK/docker-makepkg/issues/110)) ([441d04b](https://github.com/DanySK/docker-makepkg/commit/441d04b589c2f369505f5a3e9017ce8abb4fde8f))
+
 ## [1.1.35](https://github.com/DanySK/docker-makepkg/compare/1.1.34...1.1.35) (2025-02-11)
 
 ### Dependency updates
