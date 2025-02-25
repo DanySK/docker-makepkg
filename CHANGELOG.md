@@ -1,3 +1,10 @@
+## [1.1.38](https://github.com/DanySK/docker-makepkg/compare/1.1.37...1.1.38) (2025-02-25)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to cd39606 ([#116](https://github.com/DanySK/docker-makepkg/issues/116)) ([881292a](https://github.com/DanySK/docker-makepkg/commit/881292a8662a6010df4d1637dfa6b2728e31c72e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.125 ([#115](https://github.com/DanySK/docker-makepkg/issues/115)) ([f7eb837](https://github.com/DanySK/docker-makepkg/commit/f7eb83775855b0d908b86089eecedb544c8c00f7))
+
 ## [1.1.37](https://github.com/DanySK/docker-makepkg/compare/1.1.36...1.1.37) (2025-02-19)
 
 ### Dependency updates
