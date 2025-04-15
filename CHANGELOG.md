@@ -1,3 +1,13 @@
+## [1.1.44](https://github.com/DanySK/docker-makepkg/compare/1.1.43...1.1.44) (2025-04-15)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 6c2b425 ([#124](https://github.com/DanySK/docker-makepkg/issues/124)) ([98ab150](https://github.com/DanySK/docker-makepkg/commit/98ab1505055227772514b6f5d49046aca502401b))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.4.0 ([#123](https://github.com/DanySK/docker-makepkg/issues/123)) ([a4d04d5](https://github.com/DanySK/docker-makepkg/commit/a4d04d54b0c43293464187092886bea08fce7b1b))
+
 ## [1.1.43](https://github.com/DanySK/docker-makepkg/compare/1.1.42...1.1.43) (2025-04-08)
 
 ### Dependency updates
