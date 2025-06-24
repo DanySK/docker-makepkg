@@ -1,3 +1,9 @@
+## [1.1.54](https://github.com/DanySK/docker-makepkg/compare/1.1.53...1.1.54) (2025-06-24)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to bb4464b ([#143](https://github.com/DanySK/docker-makepkg/issues/143)) ([7efbe56](https://github.com/DanySK/docker-makepkg/commit/7efbe56881fb6680502e6f367a47c83d392ba500))
+
 ## [1.1.53](https://github.com/DanySK/docker-makepkg/compare/1.1.52...1.1.53) (2025-06-17)
 
 ### Dependency updates
