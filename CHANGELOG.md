@@ -1,3 +1,16 @@
+## [1.1.61](https://github.com/DanySK/docker-makepkg/compare/1.1.60...1.1.61) (2025-08-12)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 92a0740 ([#161](https://github.com/DanySK/docker-makepkg/issues/161)) ([d4ecc43](https://github.com/DanySK/docker-makepkg/commit/d4ecc43a0bd2f3b91d439efbfbf3c3abbae3f420))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.139 ([#157](https://github.com/DanySK/docker-makepkg/issues/157)) ([51da066](https://github.com/DanySK/docker-makepkg/commit/51da066476e5aa0e63e0179384f0d91402ff36ff))
+* **deps:** update node.js to 22.18 ([#158](https://github.com/DanySK/docker-makepkg/issues/158)) ([c883c21](https://github.com/DanySK/docker-makepkg/commit/c883c2179e2fbc777643eb17fe4e4880d7818500))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.3.0 ([#159](https://github.com/DanySK/docker-makepkg/issues/159)) ([bbf3858](https://github.com/DanySK/docker-makepkg/commit/bbf38589b00a430620bc9e161d1adca527ef85bc))
+* **deps:** update actions/checkout action to v5 ([#160](https://github.com/DanySK/docker-makepkg/issues/160)) ([56e68e1](https://github.com/DanySK/docker-makepkg/commit/56e68e167d93ee51b3c771159f48a7311be758f8))
+
 ## [1.1.60](https://github.com/DanySK/docker-makepkg/compare/1.1.59...1.1.60) (2025-08-08)
 
 ### Dependency updates
