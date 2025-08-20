@@ -20,10 +20,10 @@ rsync -av --exclude=".*" /pkg/ /tmp/pkg/
 cd /tmp/pkg
 
 # * makepkg -s cannot install AUR deps !
-# * Install (official repo + AUR) dependencies using yay if needed.
+# * Install (official repo + AUR) dependencies using paru if needed.
 echo "* Installing  dependencies..."
-yay -Syyu --noconfirm --ignore filesystem
-yay -Sy --noconfirm \
+paru -Syyu --noconfirm --ignore filesystem
+paru -Sy --noconfirm \
     $(pacman --deptest $(source ./PKGBUILD && echo ${depends[@]} ${checkdepends[@]} ${makedepends[@]}))
 
 # * If env $CHECKSUM_SRC, add the checksum
