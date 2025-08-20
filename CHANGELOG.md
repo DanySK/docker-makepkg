@@ -1,3 +1,17 @@
+## [2.0.0](https://github.com/DanySK/docker-makepkg/compare/1.1.61...2.0.0) (2025-08-20)
+
+### ⚠ BREAKING CHANGES
+
+* migrate to paru
+
+### Features
+
+* migrate to paru ([e80ad35](https://github.com/DanySK/docker-makepkg/commit/e80ad3528789282f5bd6338d54ade4c6a46b62e9))
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.140 ([#162](https://github.com/DanySK/docker-makepkg/issues/162)) ([babc763](https://github.com/DanySK/docker-makepkg/commit/babc7635d1ba29125454c2f809f8f2857b529664))
+
 ## [1.1.61](https://github.com/DanySK/docker-makepkg/compare/1.1.60...1.1.61) (2025-08-12)
 
 ### Dependency updates
