@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/DanySK/docker-makepkg/compare/2.0.0...2.0.1) (2025-08-21)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 925a18f ([#163](https://github.com/DanySK/docker-makepkg/issues/163)) ([8bd1a9a](https://github.com/DanySK/docker-makepkg/commit/8bd1a9a848d6cd6a101681b373f5bdacceb68111))
+
 ## [2.0.0](https://github.com/DanySK/docker-makepkg/compare/1.1.61...2.0.0) (2025-08-20)
 
 ### ⚠ BREAKING CHANGES
