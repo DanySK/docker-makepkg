@@ -1,3 +1,9 @@
+## [2.0.2](https://github.com/DanySK/docker-makepkg/compare/2.0.1...2.0.2) (2025-08-26)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 8ccc930 ([#164](https://github.com/DanySK/docker-makepkg/issues/164)) ([47ba980](https://github.com/DanySK/docker-makepkg/commit/47ba9802772a4a21bfbff51b2e7a7797ac0c680a))
+
 ## [2.0.1](https://github.com/DanySK/docker-makepkg/compare/2.0.0...2.0.1) (2025-08-21)
 
 ### Dependency updates
