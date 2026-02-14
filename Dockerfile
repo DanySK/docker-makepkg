@@ -7,11 +7,13 @@ RUN chmod 755 /run.sh
 # * Install needed packages
 RUN pacman -Syyu --noconfirm --needed \
       archlinux-keyring \
+      base-devel \
       binutils \
       cmake \
       debugedit \
       fakeroot \
       git \
+      jq \
       namcap \
       pacman-contrib \
       pkgconf \
