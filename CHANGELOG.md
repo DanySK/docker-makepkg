@@ -1,3 +1,15 @@
+## [2.1.1](https://github.com/DanySK/docker-makepkg/compare/2.1.0...2.1.1) (2026-02-22)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 839e930 ([#201](https://github.com/DanySK/docker-makepkg/issues/201)) ([a677261](https://github.com/DanySK/docker-makepkg/commit/a6772610d24b59b523b8464e4b4da9371b3c66f2))
+* **deps:** update node.js to 24.13 ([#202](https://github.com/DanySK/docker-makepkg/issues/202)) ([525d978](https://github.com/DanySK/docker-makepkg/commit/525d97805f71df8c010a844c2a88458cc900a24f))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v6.0.2 ([#204](https://github.com/DanySK/docker-makepkg/issues/204)) ([7ecb115](https://github.com/DanySK/docker-makepkg/commit/7ecb11505a80e231db7a83da0980a31598015ce9))
+* **deps:** update actions/setup-node action to v6.2.0 ([#203](https://github.com/DanySK/docker-makepkg/issues/203)) ([39d0be8](https://github.com/DanySK/docker-makepkg/commit/39d0be8dfe414ceb89656c3d8e0f2e997a12e923))
+
 ## [2.1.0](https://github.com/DanySK/docker-makepkg/compare/2.0.10...2.1.0) (2026-02-14)
 
 ### Features
