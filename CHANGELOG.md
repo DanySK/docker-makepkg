@@ -1,3 +1,30 @@
+## [2.1.2](https://github.com/DanySK/docker-makepkg/compare/2.1.1...2.1.2) (2026-10-22)
+
+### Dependency updates
+
+* **core-deps:** update archlinux:base-devel docker digest to 40d14ac ([#206](https://github.com/DanySK/docker-makepkg/issues/206)) ([c0de85e](https://github.com/DanySK/docker-makepkg/commit/c0de85e264341a666a788fc582f16c208d7aedb4))
+* **deps:** update node.js to 24.14 ([#207](https://github.com/DanySK/docker-makepkg/issues/207)) ([d283159](https://github.com/DanySK/docker-makepkg/commit/d283159d5734c0ee82f561f521deabb18c45d1a7))
+* **deps:** update node.js to 24.15 ([#209](https://github.com/DanySK/docker-makepkg/issues/209)) ([490c191](https://github.com/DanySK/docker-makepkg/commit/490c191c83446384bf2fb3cc565c858b38d2e8fa))
+* **deps:** update node.js to 24.16 ([#212](https://github.com/DanySK/docker-makepkg/issues/212)) ([49f3366](https://github.com/DanySK/docker-makepkg/commit/49f336656ac4b0e357a9dd84d6a66d374cd066bb))
+* **deps:** update node.js to 24.17 ([#214](https://github.com/DanySK/docker-makepkg/issues/214)) ([50b2693](https://github.com/DanySK/docker-makepkg/commit/50b2693feecfc9c8ec41954120d5b9c92d5fe2a6))
+* **deps:** update node.js to 24.18 ([#215](https://github.com/DanySK/docker-makepkg/issues/215)) ([c5b93b5](https://github.com/DanySK/docker-makepkg/commit/c5b93b50198fd844d88d11cb727efc12708d30bc))
+* **deps:** update node.js to 24.19 ([#219](https://github.com/DanySK/docker-makepkg/issues/219)) ([d02734c](https://github.com/DanySK/docker-makepkg/commit/d02734c636cd954c3259fe41a0b3324ea86dd669))
+* **deps:** update node.js to 24.20 ([#220](https://github.com/DanySK/docker-makepkg/issues/220)) ([e225baf](https://github.com/DanySK/docker-makepkg/commit/e225bafcc36901c398215ff93bf512d20c36af63))
+* **deps:** update node.js to 24.21 ([#221](https://github.com/DanySK/docker-makepkg/issues/221)) ([9df3f3e](https://github.com/DanySK/docker-makepkg/commit/9df3f3e236312e1159ce7896867da48384347ad0))
+* **deps:** update node.js to 24.22 ([#224](https://github.com/DanySK/docker-makepkg/issues/224)) ([c4fb19d](https://github.com/DanySK/docker-makepkg/commit/c4fb19d044bc7dec6513681cf48fd08fe1759344))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v6.0.3 ([#211](https://github.com/DanySK/docker-makepkg/issues/211)) ([bf85f08](https://github.com/DanySK/docker-makepkg/commit/bf85f081692036462a63f25dcb3b5b91c025cbb6))
+* **deps:** update actions/checkout action to v7 ([#213](https://github.com/DanySK/docker-makepkg/issues/213)) ([4f393e3](https://github.com/DanySK/docker-makepkg/commit/4f393e3bfc41407898ef838ceec5b1ff45c1d08a))
+* **deps:** update actions/checkout action to v7.0.1 ([#218](https://github.com/DanySK/docker-makepkg/issues/218)) ([2634854](https://github.com/DanySK/docker-makepkg/commit/26348540a0453365a27cb91955bf319f8ecb3388))
+* **deps:** update actions/setup-node action to v6.3.0 ([#208](https://github.com/DanySK/docker-makepkg/issues/208)) ([f880b66](https://github.com/DanySK/docker-makepkg/commit/f880b662d3db2fb9653fa356b818dfdf5684435c))
+* **deps:** update actions/setup-node action to v6.4.0 ([#210](https://github.com/DanySK/docker-makepkg/issues/210)) ([b2325f3](https://github.com/DanySK/docker-makepkg/commit/b2325f3034f8d03bad7ed773c03478f605c73d0e))
+* **deps:** update actions/setup-node action to v6.5.0 ([#216](https://github.com/DanySK/docker-makepkg/issues/216)) ([3b1d3ef](https://github.com/DanySK/docker-makepkg/commit/3b1d3ef39a7d34f8b7d52208ca716911d3683206))
+* **deps:** update actions/setup-node action to v7 ([#217](https://github.com/DanySK/docker-makepkg/issues/217)) ([e942b5c](https://github.com/DanySK/docker-makepkg/commit/e942b5cf33d31c81851dbd5c9d4c61db5868fdfa))
+* **deps:** update actions/setup-node action to v7.1.0 ([#223](https://github.com/DanySK/docker-makepkg/issues/223)) ([52a937c](https://github.com/DanySK/docker-makepkg/commit/52a937c60a87a0f09ee9e5c60be83ee4455575ce))
+* **deps:** update dependency ubuntu to v26 ([#222](https://github.com/DanySK/docker-makepkg/issues/222)) ([0d3e3c0](https://github.com/DanySK/docker-makepkg/commit/0d3e3c0efc44e7146904a0699f95429bfb484f3b))
+
 ## [2.1.1](https://github.com/DanySK/docker-makepkg/compare/2.1.0...2.1.1) (2026-02-22)
 
 ### Dependency updates
